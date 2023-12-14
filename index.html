@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- linve sass -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="/CSS/all.min.css">
+  <link rel="stylesheet" href="/CSS/bondi.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <title>Bondi</title>
+</head>
+
+<body>
+  <!-- Strat Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/Images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler border-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 active text-center" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 text-center" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 text-center" href="#portfolio-content">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 text-center" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 text-center" href="#contact">contact</a>
+          </li>
+          <div class="search my-auto px-3 fs-5 border-start border-2 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="btn my-lg-auto mt-3 main-btn transition">Login</div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <!-- Start Landing -->
+  <div class="landing text-light d-flex justify-content-center align-items-center" id="home">
+    <div class="text-center">
+      <h1 class="fw-normal">Taste the Creativity</h1>
+      <p class="fs-6 text-white-50 mb-4">We make awesome graphic and web design</p>
+      <div class="btn main-btn rounded-pill px-5 transition">Get Started</div>
+    </div>
+  </div>
+  <!-- End Landing -->
+  <!-- Start Features -->
+  <div class="features py-4 text-center " id="services">
+    <div class="container">
+      <div class="heading mx-auto my-3 p-1 position-relative text-center">
+        <div class="title my-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78px" height="58px">
+            <path fill-rule="evenodd" fill="rgb(255, 196, 0)"
+              d="M76.681,41.981 C75.145,38.582 71.150,37.073 67.752,38.608 C66.120,39.345 64.930,40.653 64.297,42.186 L41.083,33.416 C41.499,31.615 41.359,29.670 40.539,27.855 C39.224,24.941 36.509,23.109 33.548,22.771 L33.719,13.881 C34.363,13.797 35.006,13.620 35.629,13.339 C39.027,11.805 40.537,7.809 39.002,4.410 C37.467,1.011 33.471,-0.499 30.072,1.036 C26.676,2.571 25.164,6.567 26.699,9.966 C27.659,12.092 29.583,13.478 31.721,13.843 L31.550,22.766 C30.678,22.867 29.808,23.102 28.965,23.482 C24.559,25.472 22.602,30.653 24.590,35.059 C24.723,35.353 24.872,35.633 25.033,35.905 L12.170,46.056 C10.240,44.176 7.289,43.559 4.685,44.736 C1.287,46.270 -0.223,50.266 1.312,53.664 C2.847,57.061 6.843,58.570 10.241,57.039 C13.639,55.502 15.147,51.506 13.613,48.108 C13.542,47.951 13.459,47.801 13.379,47.651 L26.246,37.498 C28.740,40.105 32.691,40.999 36.167,39.430 C38.099,38.558 39.559,37.071 40.422,35.306 L63.812,44.140 C63.708,45.266 63.880,46.433 64.379,47.538 C65.913,50.934 69.911,52.445 73.308,50.911 C76.707,49.375 78.215,45.378 76.681,41.981 ZM35.344,37.607 C31.943,39.136 27.953,37.630 26.414,34.235 C24.884,30.835 26.393,26.846 29.788,25.305 C33.187,23.777 37.176,25.284 38.717,28.678 C40.245,32.078 38.738,36.067 35.344,37.607 Z" />
+          </svg>
+        </div>
+        <h1 class="my-2">We are Good at</h1>
+        <p class="text-black-50 text-uppercase">some of thease stuff under</p>
+      </div>
+      <div class="row my-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="feat">
+            <div class="icon-holder position-relative ">
+              <i class="fa-solid fa-1 position-absolute bottom-0 left-50 translate-middle-x num"></i>
+              <i class="fa-solid fa-pencil fa-4x position-absolute bottom-0 left-50 translate-middle-x icon"></i>
+            </div>
+            <h5 class="my-4 text-uppercase fw-bold">Graphic Design</h5>
+            <p class="lh-lg text-black-50">
+              Pellentesque in ipsum id orci porta dapious.
+              Vivamus manga justo, lacinia eget consecte
+              tur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feat">
+            <div class="icon-holder position-relative ">
+              <i class="fa-solid fa-2 position-absolute bottom-0 left-50 translate-middle-x num"></i>
+              <i class="fa-solid fa-tv fa-4x position-absolute bottom-0 left-50 translate-middle-x icon"></i>
+            </div>
+            <h5 class="my-4 text-uppercase fw-bold">Web Design</h5>
+            <p class="lh-lg text-black-50">
+              Pellentesque in ipsum id orci porta dapious.
+              Vivamus manga justo, lacinia eget consecte
+              tur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feat">
+            <div class="icon-holder position-relative ">
+              <i class="fa-solid fa-3 position-absolute bottom-0 left-50 translate-middle-x num"></i>
+              <i class="fa-solid fa-plug fa-4x position-absolute bottom-0 left-50 translate-middle-x icon"></i>
+            </div>
+            <h5 class="my-4 text-uppercase fw-bold">App Design</h5>
+            <p class="lh-lg text-black-50">
+              Pellentesque in ipsum id orci porta dapious.
+              Vivamus manga justo, lacinia eget consecte
+              tur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Features -->
+  <!-- Start Portfolio -->
+  <div class="portfolio py-4" id="portfolio-content">
+    <div class="container">
+      <div class="heading mx-auto my-5 p-1 position-relative text-center">
+        <div class="title my-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78px" height="58px">
+            <path fill-rule="evenodd" fill="rgb(255, 196, 0)"
+              d="M76.681,41.981 C75.145,38.582 71.150,37.073 67.752,38.608 C66.120,39.345 64.930,40.653 64.297,42.186 L41.083,33.416 C41.499,31.615 41.359,29.670 40.539,27.855 C39.224,24.941 36.509,23.109 33.548,22.771 L33.719,13.881 C34.363,13.797 35.006,13.620 35.629,13.339 C39.027,11.805 40.537,7.809 39.002,4.410 C37.467,1.011 33.471,-0.499 30.072,1.036 C26.676,2.571 25.164,6.567 26.699,9.966 C27.659,12.092 29.583,13.478 31.721,13.843 L31.550,22.766 C30.678,22.867 29.808,23.102 28.965,23.482 C24.559,25.472 22.602,30.653 24.590,35.059 C24.723,35.353 24.872,35.633 25.033,35.905 L12.170,46.056 C10.240,44.176 7.289,43.559 4.685,44.736 C1.287,46.270 -0.223,50.266 1.312,53.664 C2.847,57.061 6.843,58.570 10.241,57.039 C13.639,55.502 15.147,51.506 13.613,48.108 C13.542,47.951 13.459,47.801 13.379,47.651 L26.246,37.498 C28.740,40.105 32.691,40.999 36.167,39.430 C38.099,38.558 39.559,37.071 40.422,35.306 L63.812,44.140 C63.708,45.266 63.880,46.433 64.379,47.538 C65.913,50.934 69.911,52.445 73.308,50.911 C76.707,49.375 78.215,45.378 76.681,41.981 ZM35.344,37.607 C31.943,39.136 27.953,37.630 26.414,34.235 C24.884,30.835 26.393,26.846 29.788,25.305 C33.187,23.777 37.176,25.284 38.717,28.678 C40.245,32.078 38.738,36.067 35.344,37.607 Z" />
+          </svg>
+        </div>
+        <h1 class="my-2">We are Good at</h1>
+        <p class="text-black-50 text-uppercase">some of thease stuff under</p>
+      </div>
+      <ul class="text-capitalize list d-flex justify-content-center align-items-center flex-wrap">
+        <li class="btn main-btn mx-3 transition">
+          <a href="#portfolio-content" class="transition">all</a>
+        </li>
+        <li class="btn text-black-50 mx-2 transition">
+          <a href="#portfolio-content" class="transition">design</a>
+        </li>
+        <li class="btn text-black-50 mx-2 transition">
+          <a href="#portfolio-content" class="transition">code</a>
+        </li>
+        <li class="btn text-black-50 mx-2 transition">
+          <a href="#portfolio-content" class="transition">potography</a>
+        </li>
+        <li class="btn text-black-50 mx-2 transition">
+          <a href="#portfolio-content" class="transition">apps</a>
+        </li>
+      </ul>
+      <div class="portfolio-content">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6  mb-3 ">
+            <div class="box position-relative overflow-hidden bg-light p-2">
+              <img class="img-fluid" src="/Images/work-01.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6  mb-3 ">
+            <div class="box position-relative overflow-hidden bg-light p-2">
+              <img class="img-fluid" src="/Images/work-02.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6  mb-3 ">
+            <div class="box position-relative overflow-hidden bg-light p-2">
+              <img class="img-fluid" src="/Images/work-03.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6  mb-3 ">
+            <div class="box position-relative overflow-hidden bg-light p-2 ">
+              <img class="img-fluid" src="/Images/work-04.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="box position-relative overflow-hidden bg-light p-2 ">
+              <img class="img-fluid" src="/Images/work-05.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 ">
+            <div class="box position-relative overflow-hidden bg-light p-2 ">
+              <img class="img-fluid" src="/Images/work-06.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 ">
+            <div class="box position-relative overflow-hidden bg-light p-2  ">
+              <img class="img-fluid" src="/Images/work-07.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6  mb-3">
+            <div class="box position-relative overflow-hidden bg-light p-2">
+              <img class="img-fluid" src="/Images/work-08.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" d-flex justify-content-center align-items-center my-5">
+        <a class="btn main-btn text-uppercase px-5 rounded-pill transition">i want more</a>
+      </div>
+    </div>
+  </div>
+  <!-- End Protfolio -->
+  <!-- Start About -->
+  <div class="about pt-4" id="about">
+    <div class="container">
+      <div class="heading mx-auto my-5 p-1 position-relative text-center">
+        <div class="title my-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78px" height="58px">
+            <path fill-rule="evenodd" fill="rgb(255, 196, 0)"
+              d="M76.681,41.981 C75.145,38.582 71.150,37.073 67.752,38.608 C66.120,39.345 64.930,40.653 64.297,42.186 L41.083,33.416 C41.499,31.615 41.359,29.670 40.539,27.855 C39.224,24.941 36.509,23.109 33.548,22.771 L33.719,13.881 C34.363,13.797 35.006,13.620 35.629,13.339 C39.027,11.805 40.537,7.809 39.002,4.410 C37.467,1.011 33.471,-0.499 30.072,1.036 C26.676,2.571 25.164,6.567 26.699,9.966 C27.659,12.092 29.583,13.478 31.721,13.843 L31.550,22.766 C30.678,22.867 29.808,23.102 28.965,23.482 C24.559,25.472 22.602,30.653 24.590,35.059 C24.723,35.353 24.872,35.633 25.033,35.905 L12.170,46.056 C10.240,44.176 7.289,43.559 4.685,44.736 C1.287,46.270 -0.223,50.266 1.312,53.664 C2.847,57.061 6.843,58.570 10.241,57.039 C13.639,55.502 15.147,51.506 13.613,48.108 C13.542,47.951 13.459,47.801 13.379,47.651 L26.246,37.498 C28.740,40.105 32.691,40.999 36.167,39.430 C38.099,38.558 39.559,37.071 40.422,35.306 L63.812,44.140 C63.708,45.266 63.880,46.433 64.379,47.538 C65.913,50.934 69.911,52.445 73.308,50.911 C76.707,49.375 78.215,45.378 76.681,41.981 ZM35.344,37.607 C31.943,39.136 27.953,37.630 26.414,34.235 C24.884,30.835 26.393,26.846 29.788,25.305 C33.187,23.777 37.176,25.284 38.717,28.678 C40.245,32.078 38.738,36.067 35.344,37.607 Z" />
+          </svg>
+        </div>
+        <h1 class="my-2">Some Stuff About Us</h1>
+        <p class="text-black-50 text-uppercase">The Great Team</p>
+      </div>
+      <p class="text-black-50 my-5 text-center mx-auto">
+        Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+      </p>
+      <div class="about-content row justify-content-between align-items-center">
+        <div class="col-lg-4 mb-3 text-md-start text-center">
+          <h3 class="p-1 my-2">Retina Design</h3>
+          <div class="text text-black-50">
+            <p class="mb-3">
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget
+              tincidunt nibh pulvinar a.
+            </p>
+            <p class="mb-3">
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+              malesuada.
+            </p>
+          </div>
+          <div class="btn text-capitalize main-btn px-5 rounded-pill">order me one</div>
+        </div>
+        <div class="col-lg-7">
+          <div class="holder">
+            <img class="img-fluid" src="/Images/bondi theme.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About -->
+  <!-- Start Team -->
+  <div class="team py-4">
+    <div class="container">
+      <h1 class="golden-heading text-capitalize text-center my-3">meet the team</h1>
+      <p class="text-center text-black-50 mb-4">
+        Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+      </p>
+      <div class="team-content row">
+        <div class="col-lg-3 col-md-6 box">
+          <div class="holder text-center bg-white px-2 pt-2 transition overflow-hidden">
+            <img class="img-fluid transition" src="/Images/team-1.jpg" alt="">
+          </div>
+          <div class="name text-center p-2 text-white fs-5">Luke Skywalker</div>
+          <p class="description bg-white text-center text-black-50 p-4">
+            <q>
+              I don't understand how we got by those troops. I thought we were dead.
+            </q>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 box"> 
+          <div class="holder text-center bg-white px-2 pt-2 transition overflow-hidden">
+            <img class="img-fluid transition" src="/Images/team-2.jpg" alt="">
+          </div>
+          <div class="name text-center p-2 text-white fs-5">Luke Skywalker</div>
+          <p class="description bg-white text-center text-black-50 p-4">
+            <q>
+              Your clones are very impres-sive. You must be very proud.
+            </q>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 box">
+          <div class="holder text-center bg-white px-2 pt-2 transition overflow-hidden">
+            <img class="img-fluid transition" src="/Images/team-3.jpg" alt="">
+          </div>
+          <div class="name text-center p-2 text-white fs-5">Luke Skywalker</div>
+          <p class="description bg-white text-center text-black-50 p-4">
+            <q>
+              I don't know who you are or where you came from, but from now on you'll do as I tell you, okay?
+            </q>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 box">
+          <div class="holder text-center bg-white px-2 pt-2 transition overflow-hidden">
+            <img class="img-fluid transition" src="/Images/team-4.jpg" alt="">
+          </div>
+          <div class="name text-center p-2 text-white fs-5">Luke Skywalker</div>
+          <p class="description bg-white text-center text-black-50 p-4">
+            <q>
+              Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real vliiains behind
+              this plot.
+            </q>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Team -->
+  <!-- Start Techs -->
+  <div class="techs py-5">
+    <div class="container">
+      <div class="row justify-content-evenly text-center align-items-center">
+        <div class="holder col-lg-1 col-md-4 col-sm-6 mb-4 mb-lg-0">
+          <img src="/Images/montrel.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="holder col-lg-1 col-md-4 col-sm-6 mb-4">
+          <img src="/Images/lab.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="holder col-lg-1 col-md-4 col-sm-6 mb-4">
+          <img src="/Images/groove.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="holder col-lg-1 col-md-4 col-sm-6 mb-4">
+          <img src="/Images/star.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="holder col-lg-1 col-md-4 col-sm-6 mb-4">
+          <img src="/Images/montrel.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="holder col-lg-1 col-md-4 col-sm-6 mb-4">
+          <img src="/Images/lab.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Techs -->
+  <!-- Start Project -->
+  <div class="project  d-flex justify-content-center align-items-center text-center">
+    <div class="project-content">
+      <div class="container">
+        <h3 class="text-white text-capitalize my-2">start your project now</h3>
+        <p class="text-white-50">
+          Leave your description and we start the engine. Don't worry, you can cancel anytime
+        </p>
+        <div class="mt-5">
+          <a class="btn main-btn text-uppercase rounded-pill px-5" href="#">start project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Project -->
+  <!-- Start Blog -->
+  <div class="blog py-5" id="contact">
+    <div class="container">
+      <div class="heading mx-auto my-5 p-1 position-relative text-center">
+        <div class="title my-5 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78px" height="58px">
+            <path fill-rule="evenodd" fill="rgb(255, 196, 0)"
+              d="M76.681,41.981 C75.145,38.582 71.150,37.073 67.752,38.608 C66.120,39.345 64.930,40.653 64.297,42.186 L41.083,33.416 C41.499,31.615 41.359,29.670 40.539,27.855 C39.224,24.941 36.509,23.109 33.548,22.771 L33.719,13.881 C34.363,13.797 35.006,13.620 35.629,13.339 C39.027,11.805 40.537,7.809 39.002,4.410 C37.467,1.011 33.471,-0.499 30.072,1.036 C26.676,2.571 25.164,6.567 26.699,9.966 C27.659,12.092 29.583,13.478 31.721,13.843 L31.550,22.766 C30.678,22.867 29.808,23.102 28.965,23.482 C24.559,25.472 22.602,30.653 24.590,35.059 C24.723,35.353 24.872,35.633 25.033,35.905 L12.170,46.056 C10.240,44.176 7.289,43.559 4.685,44.736 C1.287,46.270 -0.223,50.266 1.312,53.664 C2.847,57.061 6.843,58.570 10.241,57.039 C13.639,55.502 15.147,51.506 13.613,48.108 C13.542,47.951 13.459,47.801 13.379,47.651 L26.246,37.498 C28.740,40.105 32.691,40.999 36.167,39.430 C38.099,38.558 39.559,37.071 40.422,35.306 L63.812,44.140 C63.708,45.266 63.880,46.433 64.379,47.538 C65.913,50.934 69.911,52.445 73.308,50.911 C76.707,49.375 78.215,45.378 76.681,41.981 ZM35.344,37.607 C31.943,39.136 27.953,37.630 26.414,34.235 C24.884,30.835 26.393,26.846 29.788,25.305 C33.187,23.777 37.176,25.284 38.717,28.678 C40.245,32.078 38.738,36.067 35.344,37.607 Z" />
+          </svg>
+        </div>
+        <h1 class="my-2">Read Our Blog</h1>
+        <p class="text-black-50 text-uppercase">new stories</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-3 mb-lg-0 box overflow-hidden">
+          <div class="holder position-relative">
+            <img src="/Images/blog-1.jpg" alt="" class="img-fluid rounded-top">
+          </div>
+          <div class="details my-3 p-1">
+            <div class="date text-black-50 fw-bold">November 11,2023</div>
+            <div class="fs-5 fw-bold">Some Awesome Blog Title Here</div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3 mb-lg-0 box overflow-hidden">
+          <div class="holder position-relative">
+            <img src="/Images/blog-2.jpg" alt="" class="img-fluid rounded-top">
+          </div>
+          <div class="details my-3 p-1">
+            <div class="date text-black-50 fw-bold">November 13,2023</div>
+            <div class="fs-5 fw-bold">Some Awesome Blog Title Here</div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3 mb-lg-0 box overflow-hidden">
+          <div class="holder position-relative">
+            <img src="/Images/blog-3.jpg" alt="" class="img-fluid rounded-top">
+          </div>
+          <div class="details my-3 p-1">
+            <div class="date text-black-50 fw-bold">February 3,2023</div>
+            <div class="fs-5 fw-bold">Some Awesome Blog Title Here</div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-holder d-flex justify-content-center mt-5">
+        <a href="#" class="btn main-btn text-uppercase px-5 rounded-pill">more stories</a>
+      </div>
+    </div>
+  </div>
+  <!-- End Blog -->
+  <!-- Start Subscribe -->
+  <div class="subscribe py-5 ">
+    <div class="container">
+      <form method="get" class="row justify-content-center">
+        <label class="col-lg-3 col-sm-7 fs-5 text-md-start mb-4 mb-lg-0">Subscribe to our Newsletter:</label>
+        <input class="col-lg-5 col-sm-5 border-0 border-bottom border-white mx-lg-3 mb-4 mb-lg-0 bg-transparent" type="email" placeholder="Enter Email Adress">
+        <input type="submit" value="Subscribe" class="col-lg-2 btn rounded-pill">
+      </form>
+    </div>
+  </div>
+  <!-- End Subscribe -->
+  <!-- Start Footer -->
+  <footer class="py-5 text-center text-md-start">
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="holder mb-3">
+            <img src="/Images/logo.png" alt="" class="img-fluid">
+          </div>
+          <p class="mb-5 text-white-50 text-center text-md-start">
+            Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at
+            tellus.
+          </p>
+          <div class="info text-white-50">Created By 
+            <a href="#" class="green">Graphberry</a>
+            <br>
+            &copy; 2023 - 
+            <a href="#" class="yellow">Bondi Inc</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-3">
+          <div class="text-white mb-3 text-capitalize fw-bold">Links</div>
+          <ul class="p-0">
+            <li class="list-unstyled mb-3">
+              <a href="#home" class="text-white-50">Home</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#services" class="text-white-50">Our Services</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#portfolio" class="text-white-50">Portfolio</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#" class="text-white-50">Testimonials</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#" class="text-white-50">Support</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#" class="text-white-50">Terms and Condition</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-3">
+          <div class="text-white mb-3 text-capitalize fw-bold">About Us</div>
+          <ul class="p-0">
+            <li class="list-unstyled mb-3">
+              <a href="#contact" class="text-white-50" >Sign In</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#contact" class="text-white-50" >Register</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#about" class="text-white-50" >About Us</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#contact" class="text-white-50">Blog</a>
+            </li>
+            <li class="list-unstyled mb-3">
+              <a href="#contact" class="text-white-50">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="text-white mb-3 text-capitalize fw-bold">Contact Us</div>
+          <p class="text-white-50 lh-lg">
+            Get in touch with us via mail phone.We are waiting for your call or message
+          </p>
+          <div class="btn-holder">
+            <a href="#" class="btn main-btn px-5 rounded-pill mt-5">graphberry@gmail.com</a>
+          </div>
+          <ul class="social-media-icon list-unstyled d-flex mt-4 justify-content-center justify-content-md-start">
+            <li class="bg-primary d-flex justify-content-center align-items-center rounded-circle mx-2">
+              <a href=""><i class="fa-brands fa-facebook-f text-white"></i></a>
+            </li>
+            <li class="bg-danger d-flex justify-content-center align-items-center rounded-circle mx-2">
+              <a href=""><i class="fa-brands fa-google-plus-g rounded-circle text-white"></i></a>
+            </li>
+            <li class="bg-info d-flex justify-content-center align-items-center rounded-circle mx-2">
+              <a href=""><i class="fa-brands fa-twitter rounded-circle text-white" ></i></a>
+            </li>
+            <li class="bg-warning d-flex justify-content-center align-items-center rounded-circle mx-2">
+              <a href=""><i class="fa-brands fa-snapchat rounded-circle text-white"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="/JS/bootstrap.bundle.min.js"></script>
+  <script src="/JS/all.min.js"></script>
+  <script src="/JS/main.js"></script>
+</body>
+
+</html>
+
+<!-- <i class="fa-brands fa-twitter"></i> -->
+<!-- <i class="fa-brands fa-google-plus-g"></i> -->
+<!-- <i class="fa-brands fa-snapchat"></i> -->
